@@ -1,0 +1,66 @@
+body {
+    background-color: 393D3F;
+}
+.main{
+    width:98%;
+    margin:auto;
+}
+.container{
+    position:relative;
+    top:20px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: minmax(100px,auto);
+    gap:2%;
+}
+.anchor{
+    text-decoration-color:black;
+    text-decoration: none;
+    color:black;
+}
+
+.link:hover{
+    font-size: larger;
+    color:A288E3;
+    text-decoration: underline;
+}
+[class~="underline"]{
+    text-decoration: underline;
+}
+[class~="topbar"]{
+    position:relative;
+    background-color: EEF5DB;
+    border: 7px solid;
+    border-color:339989;
+    margin: auto;
+}
+[class~="leftbar"]{
+    position:relative;
+    background-color: EEF5DB;
+    border: 6px solid;
+    border-color:CCFFCB;
+    padding:5px;
+    grid-row:1/6
+}
+[class ~= "textbox"]{
+    position:relative;
+    background-color: EEF5DB;
+    border: 6px solid;
+    border-color:CCFFCB;
+    padding:5px;
+    grid-row:1/6
+}
+[class~="centertext"]{
+    text-align: center;
+}
+
+[class~="sans-serif"]{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+[class~="serif"] {
+    font-family: "Times New Roman", Times, serif;
+}
+a[target = "_blank"]{
+    background-color: lightcoral;
+}
