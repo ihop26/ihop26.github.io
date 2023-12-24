@@ -1,5 +1,5 @@
 body {
-    background-color: 393D3F;
+    background-color: #393D3F;
 }
 .main{
     width:98%;
@@ -20,7 +20,7 @@ body {
 }
 
 .link:hover{
-    color:A288E3;
+    color:#A288E3;
     text-decoration: underline;
 }
 
@@ -37,28 +37,35 @@ body {
 }
 [class~="topbar"]{
     position:relative;
-    display:table;
     width: 100%;
-    background-color: EEF5DB;
+    background-color: #EEF5DB;
     border: 7px solid;
-    border-color:FFFFFF;
+    border-color:#339989;
     margin: auto;
 }
 [class~="leftbar"]{
     position:relative;
-    background-color: EEF5DB;
+    background-color: #EEF5DB;
     border: 6px solid;
-    border-color:CCFFCB;
+    border-color:#CCFFCB;
     padding:5px;
     grid-row:1/6
 }
 [class ~= "textbox"]{
     position:relative;
-    background-color: EEF5DB;
+    background-color: #EEF5DB;
     border: 6px solid;
-    border-color:CCFFCB;
+    border-color:#CCFFCB;
     padding:5px;
     grid-row:1/6
+}
+[class ~= "textboxalt"]{
+    position:relative;
+    background-color: #EEF5DB;
+    border: 6px solid;
+    border-color:#A288E3;
+    padding:5px;
+    grid-row:1/6;
 }
 
 [class~="centertext"]{
