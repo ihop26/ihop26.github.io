@@ -23,6 +23,7 @@ body {
     color:A288E3;
     text-decoration: underline;
 }
+
 [class~="topbarleft"]{
     display:table-cell;
     text-align: left;
@@ -40,8 +41,7 @@ body {
     width: 100%;
     background-color: EEF5DB;
     border: 7px solid;
-    border-color:339989;
-   
+    border-color:FFFFFF;
     margin: auto;
 }
 [class~="leftbar"]{
@@ -64,6 +64,9 @@ body {
 [class~="centertext"]{
     position:relative;
     text-align: center;
+}
+p{
+    font-size: 50px;
 }
 
 
