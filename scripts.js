@@ -10,7 +10,7 @@ function resetText(){
 const illinix = document.getElementById("illinix");
 illinix.addEventListener("mousemove",onHover);
 illinix.addEventListener("mouseleave",resetText);
-illinix.description = "1, descriptions TODO";
+illinix.description = "Descriptions in progress... Click to see emulated OS";
 
 const dotcollector = document.getElementById("dot");
 dotcollector.addEventListener("mouseover",onHover);

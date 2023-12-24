@@ -20,18 +20,28 @@ body {
 }
 
 .link:hover{
-    font-size: larger;
     color:A288E3;
     text-decoration: underline;
+}
+[class~="topbarleft"]{
+    display:table-cell;
+    text-align: left;
+}
+[class~="topbarright"]{
+    display:table-cell;
+    text-align: right;
 }
 [class~="underline"]{
     text-decoration: underline;
 }
 [class~="topbar"]{
     position:relative;
+    display:table;
+    width: 100%;
     background-color: EEF5DB;
     border: 7px solid;
     border-color:339989;
+   
     margin: auto;
 }
 [class~="leftbar"]{
@@ -50,9 +60,12 @@ body {
     padding:5px;
     grid-row:1/6
 }
+
 [class~="centertext"]{
+    position:relative;
     text-align: center;
 }
+
 
 [class~="sans-serif"]{
     font-family: Arial, Helvetica, sans-serif;
