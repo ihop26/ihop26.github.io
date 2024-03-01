@@ -5,7 +5,7 @@ function onHover(event){
 }
 
 function resetText(){
-    text.innerHTML = "hi, this is my page. I am learning html/css/js right now. Most of what you see here will be subject to change.<br><br> Hover over one of my projects on the left to see what I'm up to. woop";
+    text.innerHTML = "hi, this is my page. It is very much _under_construction_. Most of what you see here will be subject to change.<br><br> Hover over one of my projects on the left to see what I'm up to. ";
 }                    
 
 const illinix = document.getElementById("illinix");
