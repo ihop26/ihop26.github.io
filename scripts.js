@@ -20,7 +20,7 @@ dotcollector.addEventListener("mouseleave",resetText);
 
 
 const website = document.getElementById("website");
-website.description = "Congrats, you're already here!";
+website.description = "Congrats, you're already here! This started as a side project during the early months of 2024";
 website.addEventListener("mouseover",onHover);
 website.addEventListener("mouseleave",resetText);
 
